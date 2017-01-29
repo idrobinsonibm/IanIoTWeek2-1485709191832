@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IanIoTWeek2
+  host: IanIoTWeek2
+  disk_quota: 1024M
+  services:
+  - IanIoTWeek2-cloudantNoSQLDB
+  - IanIoTWeek2-iotf-service
+  - availability-monitoring-auto
